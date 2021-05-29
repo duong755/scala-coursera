@@ -9,8 +9,8 @@ object Lecture3 {
 
   def content() = {
     val list = new Cons(1, new Cons(6, new Cons(3, new Cons(2, new Nil[Int]))))
-    println(nth[Int](2, list))
-    println(nth[Int](6, list))
+    println(nth(2, list))
+    println(nth(6, list))
   }
 }
 
@@ -21,12 +21,12 @@ trait List[T] {
 }
 
 class Cons[T](val head: T, val tail: List[T]) extends List[T] {
-  val isEmpty = false
+  val isEmpty               = false
   def singleton[T](elem: T) = new Cons[T](elem, new Nil[T])
 }
 
 class Nil[T] extends List[T] {
-  val isEmpty = true
+  val isEmpty       = true
   def head: Nothing = throw new NoSuchElementException("Nil.head")
   def tail: Nothing = throw new NoSuchElementException("Nil.tail")
 }
