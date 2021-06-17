@@ -13,6 +13,8 @@ import week2.{
 }
 import week3.{Lecture1 => Week3Lecture1, Lecture3 => Week3Lecture3}
 import week4.{Lecture6 => Week4Lecture6, Lecture7 => Week4Lecture7}
+import week5.{Lecture1 => Week5Lecture1, Lecture2 => Week5Lecture2, Lecture3 => Week5Lecture3}
+
 import scala.annotation.nowarn
 
 object Main extends App {
@@ -74,10 +76,16 @@ object Main extends App {
   // week 4
   // println("Week 4/Lecture 6")
   // Week4Lecture6.content()
-  println("Week 4/Lecture 7")
-  Week4Lecture7.content()
+  // println("Week 4/Lecture 7")
+  // Week4Lecture7.content()
 
   // week 5
+  // println("Week 5/Lecture 1")
+  // Week5Lecture1.content
+  // println("Week 5/Lecture 2")
+  // Week5Lecture2.content
+  // println("Week 5/Lecture 3")
+  // Week5Lecture3.content
 
   // week 6
 }
