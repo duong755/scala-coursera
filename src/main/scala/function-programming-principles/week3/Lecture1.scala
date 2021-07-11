@@ -1,7 +1,7 @@
 package fp.week3
 
 object Lecture1 {
-  def content() = {
+  def content = {
     val tree1 = new NonEmpty(3, new Empty, new Empty)
     val tree2 = tree1 incl 2 incl 4
     val tree3 = new NonEmpty(1, new Empty, new Empty)
