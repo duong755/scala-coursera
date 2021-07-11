@@ -7,7 +7,7 @@ object Lecture3 {
     else nth(n - 1, list.tail)
   }
 
-  def content() = {
+  def content = {
     val list = new Cons(1, new Cons(6, new Cons(3, new Cons(2, new Nil[Int]))))
     println(nth(2, list))
     println(nth(6, list))

@@ -51,23 +51,23 @@ object Main extends App {
   // println(s"sqrt(3) approx ${Week2Lecture3.sqrt(3)}")
 
   // println("Week 2/Lecture 5")
-  // Week2Lecture5.content()
+  // Week2Lecture5.content
 
   // println("Week 2/Lecture 6")
-  // Week2Lecture6.content()
+  // Week2Lecture6.content
 
   // week 3
   // println("Week 3/Lecture 1")
-  // Week3Lecture1.content()
+  // Week3Lecture1.content
 
   // println("Week 3/Lecture 3")
-  // Week3Lecture3.content()
+  // Week3Lecture3.content
 
   // week 4
   // println("Week 4/Lecture 6")
-  // Week4Lecture6.content()
+  // Week4Lecture6.content
   // println("Week 4/Lecture 7")
-  // Week4Lecture7.content()
+  // Week4Lecture7.content
 
   // week 5
   // println("Week 5/Lecture 1")

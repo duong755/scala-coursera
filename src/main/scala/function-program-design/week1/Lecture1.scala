@@ -1,24 +1,21 @@
 package fpd.week1
 
-abstract class JSON
-
-object JSON
-case class Seq(elems: List[JSON])           extends JSON
-case class Obj(bindings: Map[String, JSON]) extends JSON
-case class Num(num: Double)                 extends JSON
-case class Str(str: String)                 extends JSON
-case class Boolean(b: Boolean)              extends JSON
-case object Null                            extends JSON
+enum JSON:
+  case Bool(b: Boolean)
+  case Num(n: Double)
+  case Str(str: String)
+  case Seq(list: List[JSON])
+  case Obj(bindings: Map[String, JSON])
+  case Null
 
 object Lecture1 {
-  def content: Unit = ???
+  def content: Unit = {}
 
   def stringify(json: JSON): String = json match {
-    case Boolean(b) => b.toString
-    case Num(num)   => num.toString
-    case Str(str)   => inQuotes(str)
-    case Null       => "null"
-    case Obj(bindings) => {
+    case JSON.Bool(b) => b.toString
+    case JSON.Num(num)   => num.toString
+    case JSON.Str(str)   => inQuotes(str)
+    case JSON.Obj(bindings) =>
       bindings
         .map(
           { case (key, value) =>
@@ -26,8 +23,8 @@ object Lecture1 {
           },
         )
         .mkString("{", ", ", "}")
-    }
-    case Seq(elems) => elems.map(stringify).mkString("[", ", ", "]")
+    case JSON.Seq(elems) => elems.map(stringify).mkString("[", ", ", "]")
+    case JSON.Null       => "null"
   }
 
   private def inQuotes(str: String): String = "\"" + str + "\"";

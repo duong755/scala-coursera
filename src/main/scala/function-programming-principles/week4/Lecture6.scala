@@ -22,7 +22,7 @@ object Lecture6 {
     case Var(name)    => name
   }
 
-  def content() = {
+  def content = {
     println(show(Prod(Number(2), Sum(Var("x"), Var("y"))), true))
     println(show(Sum(Prod(Number(2), Var("x")), Var("y")), true))
   }
