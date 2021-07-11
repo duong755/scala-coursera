@@ -1,4 +1,4 @@
-package week6
+package fp.week6
 
 import scala.io.Source
 

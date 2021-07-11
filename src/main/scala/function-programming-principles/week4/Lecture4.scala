@@ -1,6 +1,6 @@
-package week4
+package fp.week4
 
-import week3._
+import fp.week3._
 
 object Lecture4 {
   def f(xs: List[NonEmpty], x: Empty) = xs prepend x

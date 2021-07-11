@@ -1,7 +1,7 @@
-package week5
+package fp.week5
 
 object Lecture1 {
-  def content(): Unit = {
+  def content: Unit = {
     println(removeAt(3, List(1, 2, 3, 4, 5, 6)))
     println(flatten(List(List(1, 1), 2, List(3, List(5, 8)))))
   }

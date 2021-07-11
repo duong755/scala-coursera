@@ -1,4 +1,4 @@
-package week4
+package fp.week4
 
 object Lecture5 {
   // def eval(e: Expr): Int = {

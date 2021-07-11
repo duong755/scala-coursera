@@ -1,4 +1,4 @@
-package week1
+package fp.week1
 
 object Lecture7 {
   def gcd(a: Int, b: Int): Int =

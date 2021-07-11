@@ -1,4 +1,4 @@
-package week4
+package fp.week4
 
 import scala.collection.immutable.{List, Nil}
 

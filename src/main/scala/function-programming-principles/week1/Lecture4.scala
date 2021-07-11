@@ -1,4 +1,4 @@
-package week1
+package fp.week1
 
 object Lecture4 {
   def and(x: Boolean, y: => Boolean) = if (x) y else false

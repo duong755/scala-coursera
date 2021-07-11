@@ -1,4 +1,4 @@
-package week6
+package fp.week6
 
 object Lecture4 {
   val countryAndCapital = Map("vietnam" -> "hanoi", "germany" -> "berlin", "france" -> "paris")

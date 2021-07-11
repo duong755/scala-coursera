@@ -1,4 +1,4 @@
-package week3
+package fp.week3
 
 object Lecture1 {
   def content() = {

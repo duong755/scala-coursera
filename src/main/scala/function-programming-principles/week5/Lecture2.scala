@@ -1,9 +1,9 @@
-package week5
+package fp.week5
 
 import scala.collection.immutable
 
 object Lecture2 {
-  def content(): Unit = {
+  def content: Unit = {
     println(
       msort(
         List(100, 9, 13, 26, 61, 85, 70, 67, 5, 41, 2, 32, 52, 60, 12, 76, 62, 3, 47, 79, 24, 89, 14, 16, 92, 32, 66,

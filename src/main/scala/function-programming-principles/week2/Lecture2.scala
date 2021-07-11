@@ -1,4 +1,4 @@
-package week2
+package fp.week2
 
 object Lecture2 {
   // def sum(f: Int => Int): (Int, Int) => Int = {

@@ -1,4 +1,4 @@
-package week6
+package fp.week6
 
 import math.{sqrt, floor}
 

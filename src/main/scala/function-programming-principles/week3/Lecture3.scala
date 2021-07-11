@@ -1,4 +1,4 @@
-package week3
+package fp.week3
 
 object Lecture3 {
   def nth[T](n: Int, list: List[T]): T = {

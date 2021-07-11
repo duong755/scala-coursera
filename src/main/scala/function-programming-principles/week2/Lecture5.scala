@@ -1,4 +1,4 @@
-package week2
+package fp.week2
 
 object Lecture5 {
   def addRational(r1: Rational, r2: Rational): Rational = {
